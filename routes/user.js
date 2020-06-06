@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const mongoose = require('mongoose')
-const requireLogin  = require('../middleware/requireLogin')
+const requireLogin  = require('../middleware/requirelogin')
 const Post =  mongoose.model("Post")
 const User = mongoose.model("User")
 
